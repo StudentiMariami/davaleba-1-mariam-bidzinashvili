@@ -24,21 +24,7 @@ namespace WindowsFormsApp1
             int vagonebis_raod, vagonshi_mgzavr=35;
             sadguri.biletebis_fasi = int.Parse(textBox1.Text);
             sadguri.biletebis_raod = int.Parse(textBox2.Text);
-
-      /*      public void vagonebi(double vagonebi)
-            {
-                vagonebis_raod = (int)vagonebi;
-                double mag = biletebis_raod / vagonshi_mgzavr;
-                if (biletebis_raod % vagonshi_mgzavr == 0)
-                {
-                    vagonebi = mag;
-                }
-                else
-                {
-                    vagonebi = Math.Ceiling(mag);
-                }
-            }*/
-
+            
             sadguri.mogeba(label1);
             sadguri.gamotana(label2);
 
